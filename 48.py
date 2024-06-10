@@ -1,16 +1,25 @@
-scores = {
-    "dini": 12,
-    "riazi": 17,
-    "arabi": 8,
-    "fizik": 15,
-    "zaban": 20,
-}
+# word = "python"
+# chars = {}
+#
+# counter = 0
+# for i in word:
+#     chars.setdefault(counter, i)
+#     counter += 1
+#
+# print(chars)
 
-for i,j in scores.items():
-    if j>=10:
-        print(i,": Passed")
-    else:
-        print(i,": Failed")
+# =========================================================
 
-moadel = sum(scores.values()) / len(scores)
-print(moadel)
+# word = "engineer"
+# chars = {}
+#
+# for i in range(len(word)):
+#     chars.setdefault(i, word[i])
+#
+# print(chars)
+
+# =========================================================
+
+word = "python"
+chars = dict(zip(range(len(word)),word))
+print(chars)
