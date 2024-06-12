@@ -4,13 +4,13 @@
 #     return number
 #
 #
-# print(Taabe1(4))
+# print(Taabe1(40))
 
 # def Taabe2(a, b):
 #     print(a ** b)
 #
 #
-# Taabe2(2,3)
+# Taabe2(a,b)
 
 
 # def Taabe3(a):
@@ -26,9 +26,9 @@
 #     return a ** 3
 #
 #
-# print(f4(5))
-#
-#
+# print(f4())
+
+
 # def f5(a=2):
 #     return a
 #
@@ -41,10 +41,10 @@
 #
 #
 # print(f6(10))
-#
-#
-def f7(a=int(input("Enter any number : "))):
-    return a ** 2
 
 
-print(f7(7))
+# def f7(a=int(input("Enter any number : "))):
+#     return a ** 2
+#
+#
+# print(f7(7))
