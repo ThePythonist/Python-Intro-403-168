@@ -1,11 +1,14 @@
-def compare(n1, n2):
-    if n1 > n2:
-        print(n1)
-    elif n2 > n1:
-        print(n2)
-    else:
-        print("equal")
+name = input("Name : ")
+age = 30
 
-compare(5,5)
-compare(4,3)
-compare(15,3)
+# 1
+# print("you are",age,"years old")
+# print("im {} and i am {} years old".format(name,age))
+
+
+# 2
+# print("im {n} and i am {a} years old".format(a=age, n=name))
+
+
+# 3
+print(f"im {name} and im {age} years old")
