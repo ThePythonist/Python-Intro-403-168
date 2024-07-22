@@ -1,4 +1,4 @@
-import datetime
+w = ["js", "python", "c#", "c++"]
 
-x = str(datetime.datetime.now())
-print(x.split()[0])
+for i in w:
+    print(i[::-1])

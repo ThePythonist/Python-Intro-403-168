@@ -1,5 +1,5 @@
-# import datetime
-#
+import datetime
+
 # now = str(datetime.datetime.now())
 #
 # print(now.split())
@@ -9,26 +9,30 @@
 
 # import time
 #
-# m = 60
-# time.sleep(2 * m)
-# now2 = str(datetime.datetime.now())
+# c = 0
+# while c <= 20:
+#     time.sleep(1)
+#     c += 1
+#     print(str(datetime.datetime.now()))
 
 # ---------------------------------------
 
-import datetime
+# import datetime
 
-year = datetime.datetime.now().year
-month = datetime.datetime.now().month
-minute = datetime.datetime.now().minute
-day = datetime.datetime.now().day
-hour = datetime.datetime.now().hour
-second = datetime.datetime.now().second
+# Attributes
 
-print(f"{hour}:{minute}")
+# year = datetime.datetime.now().year
+# month = datetime.datetime.now().month
+# minute = datetime.datetime.now().minute
+# day = datetime.datetime.now().day
+# hour = datetime.datetime.now().hour
+# second = datetime.datetime.now().second
+#
+# print(f"{hour}:{minute}")
 
 # ---------------- STRFTIME EXAMPLES ----------------
 
 # import datetime
 #
 # now = datetime.datetime.now()
-# print(now.strftime("%c"))
+# print(now.strftime("%H"))
