@@ -1,4 +1,4 @@
-w = ["js", "python", "c#", "c++"]
+import random
 
-for i in w:
-    print(i[::-1])
+students = ["setayesh","niayesh", "najmeh", "mohammad", "matin", "hossein"]
+print(random.choice(students))
