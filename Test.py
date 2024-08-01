@@ -1,4 +1,5 @@
-import random
+s = "*"
+n = int(input("Entry : "))
 
-students = ["setayesh","niayesh", "najmeh", "mohammad", "matin", "hossein"]
-print(random.choice(students))
+for i in range(1,n+1):
+    print(s*i)
